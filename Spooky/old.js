@@ -17,6 +17,6 @@ if (Value === "7RU3") {
     document.write("<center><p>Hackoween_{Y0U'11 N3V3R Sl33P}<p><center>");
 } else {
     document.write("<section id=\"photos\">");
-    document.write("<center><img src=\"ghost.jpeg\" alt=\"ghost\"></center>");
+    document.write("<center><img src=\"ghost1.jpeg\" alt=\"ghost\"></center>");
     document.write("</section>");
 }
