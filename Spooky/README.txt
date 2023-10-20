@@ -28,8 +28,8 @@ GETTING STARTED
 
 CTF CHALLENGE
 Flag Template: Hackoween_{flag}
-Spooky Hint
-Spooky Solution
+Need a Hint? See "HINT.txt"
+Need the Solution? See "SOLUTION.txt"
 
 
 
