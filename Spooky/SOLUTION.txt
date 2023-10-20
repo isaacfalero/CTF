@@ -1,0 +1,22 @@
+﻿*SPOOKY SOLUTION*
+
+
+1. Inspecting the source code, we see that the obfuscated JavaScript code in the old.min.js file is not of much use to us.
+
+
+2. So, let’s save the ghost image.
+
+
+3. Extract any hidden data front the ghost image into a text file using steghide:
+steghide extract -sf <stego_image> -xf <extracted_data>
+*NO PASSPHRASE*
+
+
+4. Open the text file with the extracted data.
+
+
+5. The hidden string is a URL parameter.
+
+
+6. Use the parameter at the web application’s URL to retrieve the flag.
+Flag Template: Hackoween_{flag}
