@@ -1,1 +1,1 @@
-Capture the Flag Challenges for Cyber Skills Development
+Capture the Flag Challenges for Cyber Skill Development
