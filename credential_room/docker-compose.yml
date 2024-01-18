@@ -1,0 +1,15 @@
+version: '3.1'
+services:
+  web:
+    build: .
+    ports:
+      - "8000:80"
+    depends_on:
+      - db
+  db:
+    image: mysql:5.7
+    environment:
+      MYSQL_ROOT_PASSWORD: L3G05_R_FUN!
+      MYSQL_DATABASE: challenge_db
+    volumes:
+      - ./data:/docker-entrypoint-initdb.d
