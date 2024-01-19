@@ -1,7 +1,9 @@
 CREDENTIAL_ROOM - SOLUTION
 
-This web application is vulnerable to sql injection attacts.
+1. This web application is vulnerable to sql injection attacts.
 
-We can input "' OR '1'='1" into the username and password fields to bypass the vulnerable authentication.
+2. We can input "' OR '1'='1" into the username and password fields to bypass the vulnerable authentication.
 
-This input modifies the SQL query to return true for every row, effectively bypassing the login check.
+3. This input modifies the SQL query to return true for every row, effectively bypassing the login check.
+
+Flag Template: CCC_{flag}
