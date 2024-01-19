@@ -19,7 +19,8 @@ $result = $conn->query($sql);
 if ($result->num_rows > 0) {
     header("Location: dashboard.html");
 } else {
-    echo "Invalid username or password";
+    echo "<body style='background-color:#7fbee9;'>";
+    echo "<center><h1>Invalid username or password.</h1></center>";
 }
 
 $conn->close();
