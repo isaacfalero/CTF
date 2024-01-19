@@ -13,9 +13,9 @@ Docker install guide: https://docs.docker.com/get-docker/
 
 
 GETTING STARTED
-1. Clone Spooky directory from CTF GitHub repository:
-   a) https://github.com/isaacfalero/CTFs/tree/main/Spooky 
-2. Once inside the Spooky directory on your localhost, deploy the Docker container: 
+1. Clone *spooky_room* directory from CTF GitHub repository:
+   a) https://github.com/isaacfalero/CTFs/tree/main/spooky_room
+2. Once inside the spooky_room directory on your localhost, deploy the Docker container: 
    a) docker build -t spooky . (builds docker image, tagging it “spooky”, using all the assets 
       in the current directory)
    b) docker run -d -p 8081:80 spooky (deploys the Docker container and maps localhost port 8081 
